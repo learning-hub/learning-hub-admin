@@ -1,0 +1,77 @@
+import Vue from 'vue'
+import {
+  Button, Form, FormItem, Input, Message,
+  Loading,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Menu,
+  MenuItem,
+  MenuItemGroup,
+  Submenu,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  Col,
+  Table,
+  TableColumn,
+  Tooltip,
+  Tag,
+  Pagination,
+  Dialog,
+  RadioGroup,
+  RadioButton,
+  Select,
+  Option,
+  MessageBox,
+  Image,
+  Switch,
+  Cascader,
+  Tabs,
+  TabPane,
+  Alert,
+  Step,
+  Steps,
+  Radio,
+  PageHeader
+} from 'element-ui'
+Vue.use(Button)
+Vue.use(Loading)
+Vue.use(PageHeader)
+Vue.use(Radio)
+Vue.use(Alert)
+Vue.use(Step)
+Vue.use(Steps)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Cascader)
+Vue.use(Switch)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Aside)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Submenu)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Col)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Tooltip)
+Vue.use(Tag)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(RadioGroup)
+Vue.use(RadioButton)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Image)
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.prototype.$message = Message
